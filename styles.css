@@ -20,7 +20,7 @@ body {
 img {
     border-radius: 0%;
     scale: 100%;
-  }
+}
 
 .logo {
     display: block;
@@ -30,7 +30,13 @@ img {
     margin-top: auto;
     height: auto;
     max-width: 200px;
-  }
+}
+
+.header-text {
+    line-height: 150%;
+    font-weight: bold;
+    font-size: 30px;
+}
 
 .login {
     line-height: 250%;
@@ -38,7 +44,7 @@ img {
     text-decoration: none;
     color: gray;
     transition: color 200ms; 
-  }
+}
 .login:hover {
     color: rgb(255, 255, 255);
 }
@@ -62,7 +68,7 @@ img {
     text-decoration: none;
     background: rgb(96,173,89);
     background: radial-gradient(circle, rgba(96,173,89,1) 4%, rgba(96,173,89,0.8240429961046919) 69%, rgba(96,173,89,0.22460322019432777) 75%, rgba(96,173,89,0) 88%); 
-  }
+}
 
 .socials {
     text-align: center;
