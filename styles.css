@@ -1,14 +1,32 @@
+@font-face {
+    font-family: 'About';
+    src: url(assets/fonts/BubblegumSans-Regular.ttf);
+}
+@font-face {
+    font-family: 'Registration';
+    src: url(assets/fonts/Matamata-Bold.otf dingbats.ttf);
+}
+@font-face {
+    font-family: 'body';
+    src: url(assets/fonts/entsani.ttf);
+}
+@font-face {
+    font-family: 'links';
+    src: url(assets/Fonts/FredokaOne-Regular.ttf);
+}
+@font-face {
+    font-family: 'COVID-19';
+    src: url(assets/fonts/entsans.ttf);
+}
+
 body {
     background: rgb(63,63,63);
     background: radial-gradient(circle, rgba(63,63,63,1) 0%, rgba(40,40,40,1) 7%, rgba(27,27,27,1) 22%, rgba(0,0,0,1) 62%); 
     color: #fff;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'body';
+    text-align: center;
     font-size: 15px;
     letter-spacing: 2px;
-}
-
-h2 {
-    text-align: center;
 }
 
 img {
@@ -26,15 +44,20 @@ img {
     max-width: 200px;
   }
 
-.header-text {
-    text-align: center;
+.login {
+    line-height: 250%;
     font-size: 20px;
-    padding: 30px;
     text-decoration: none;
     color: gray;
+    transition: color 200ms; 
   }
+.login:hover {
+    color: rgb(255, 255, 255);
+}
+
 
 .links {
+    font-family: 'links';
     text-align: center;
     font-size: 20px;
     font-weight: bolder;
@@ -48,44 +71,37 @@ img {
     margin-right: auto;
     border-radius: 40px;
     color: rgb(39, 38, 38);
-    transition: color 250ms; 
+    transition: color 1s; 
     text-decoration: none;
-    background-color: rgb(96, 173, 89);
+    background: rgb(96,173,89);
+    background: radial-gradient(circle, rgba(96,173,89,1) 4%, rgba(96,173,89,0.8240429961046919) 69%, rgba(96,173,89,0.22460322019432777) 75%, rgba(96,173,89,0) 88%); 
   }
 
 .socials {
     text-align: center;
     font-size: 20px;
-    margin-top: 18px;
-    padding: 20px;
-    /* border: 1px solid rgb(255, 255, 255);
-    border-width: 2px; */
-    width: 290px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 40px;
-    color: rgb(39, 38, 38);
-    transition: color 250ms; 
+    color: rgb(170, 170, 170);
+    transition: color 200ms; 
     text-decoration: none;
-    background-color: rgba(255, 255, 255, 0.68);
 }
 
 .links:hover {
-    color: #000;
-    background: rgb(76, 138, 71);
+    color: rgb(255, 255, 255);
+    background: rgba(0, 0, 0, 0);
+    /* background: rgb(96,173,89); */
+    /* background: radial-gradient(circle, rgba(96,173,89,1) 4%, rgba(61, 116, 56, 0.824) 69%, rgba(96,173,89,0.22460322019432777) 75%, rgba(96,173,89,0) 88%);  */
 }
 
 .socials:hover {
-    color: #000;
-    background: rgba(255, 255, 255, 0.623);
+    color: rgb(255, 255, 255);
 }
 
 .bottom-text {
+    line-height: 10px;
     padding-bottom: 20px;
     text-align: center;
     margin-top: 40px;
-    font-weight: bold;
+    /* font-weight: bold; */
 }
 
 p.bottom-text {
@@ -96,7 +112,11 @@ p.bottom-text {
 .email {
     text-decoration: none;
     font-size: 20px;
-    color: rgba(255, 255, 255);
+    color: rgb(96, 173, 89);
+    transition: color 200ms; 
+}
+.login:hover {
+    color: rgb(255, 255, 255);
 }
 
 .footer {
