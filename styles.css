@@ -1,22 +1,10 @@
 @font-face {
-    font-family: 'About';
-    src: url(assets/fonts/BubblegumSans-Regular.ttf);
-}
-@font-face {
-    font-family: 'Registration';
-    src: url(assets/fonts/Matamata-Bold.otf dingbats.ttf);
-}
-@font-face {
     font-family: 'body';
     src: url(assets/fonts/entsani.ttf);
 }
 @font-face {
     font-family: 'links';
     src: url(assets/Fonts/FredokaOne-Regular.ttf);
-}
-@font-face {
-    font-family: 'COVID-19';
-    src: url(assets/fonts/entsans.ttf);
 }
 
 body {
@@ -54,7 +42,6 @@ img {
 .login:hover {
     color: rgb(255, 255, 255);
 }
-
 
 .links {
     font-family: 'links';
