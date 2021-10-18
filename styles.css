@@ -1,6 +1,8 @@
 @font-face {
     font-family: 'body';
-    src: url(assets/fonts/entsani.ttf);
+    font-style: normal;
+    font-weight: normal;
+    src: local('body'), url('assets/Fonts/entsani.woff') format('woff');
 }
 @font-face {
     font-family: 'links';
